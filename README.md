@@ -15,7 +15,7 @@ The goal of this exercise was to create a function that:
 1. Extracts information about indentation from an Excel file (Which cells are indented? How much are they indented?)
 2. Returns that information in a matrix whose structure mimics the original Excel file (i.e., if the Excel file contained 100 rows and 5 columns of formatted data, the function should return a 100x5 matrix of numbers where 0 = No indentation, 1 = first level of indentation, 2 = second level of indentation, and so on). This data could be used in later data cleaning.
 
-Additionally, this is my first time using Python to problem-solve, so it serves as a useful learning exercise. I make no claims that this code adheres to any sort of "best practices" - however, one of the easiest ways for me to learn is to dive right in and figure out what I <b>don't</b> know. A list of questions that this exercised raised for me will be included at the end of the notebook.
+Additionally, this is my first time using Python to problem-solve, so it serves as a useful learning exercise. I make no claims that this code adheres to any sort of "best practices" - however, one of the easiest ways for me to learn is to dive right in and figure out what I <b>don't</b> know. A list of questions that this exercise raised for me will be included at the end of the notebook.
 
 
 ```python
