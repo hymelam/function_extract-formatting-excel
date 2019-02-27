@@ -4,9 +4,9 @@
 Excel files sometimes store meaningful information in cell formatting.
 
 In the example below, rows beginning with "Male" and "Female" contain no information about field of study. The nesting of "Male" and "Female" within field of study (and field of study within "All Fields") is made apparent by indentation.
-
+<br/><br/>
 <img src="excel_indent_example.PNG" align="left"/>
-
+<br/><br/>
 (This Excel file was downloaded from: https://ncses.nsf.gov/pubs/nsf19301/data [Table 14])
 
 While this example is simple and could be easily handled during data cleaning, one can easily imagine more complex scenarios in which the nesting structure isn't as obvious (e.g., there are more than two unique strings - male and female - being nested, identical strings existing at multiple levels of the nesting structure, etc.).
