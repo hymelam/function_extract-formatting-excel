@@ -59,7 +59,7 @@ def excel_indent_finder(file, sheet_number= 1):
             # If cell has a value, then look for (and append) the indentation information
             if cell.value: 
                 format_matrix.append(cell.alignment.indent)  
-            # If cell does not have a value, append a 0 (no indentation)
+            # If cell does not have a value, append a NaN
             else:
                 format_matrix.append(np.nan)
     # Reshape the matrix so that it mirrors the original Excel file
