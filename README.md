@@ -1,5 +1,5 @@
 
-# How to extract indentation data from Excel (xlsx) file
+# How to extract indentation information from and Excel (xlsx) file
 
 Excel files sometimes store meaningful information in cell formatting.
 
